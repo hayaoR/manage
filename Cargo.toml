@@ -20,6 +20,7 @@ anyhow= "1"
 hyper = "0.14.14"
 serde = { version = "1", features = ["derive"] }
 config = "0.11.0"
+uuid = { version = "0.8.1", features = ["v4"]}
 
 [dependencies.sqlx]
 version = "0.5.9"
