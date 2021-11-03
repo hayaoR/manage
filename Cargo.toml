@@ -27,6 +27,7 @@ default-features = false
 features = [
     "runtime-tokio-rustls",
     "macros",
+    "postgres",
     "uuid",
     "chrono",
     "migrate"
